@@ -11,14 +11,11 @@ load_dotenv()
 # ---- Project & Activity mapping ----
 PROJECTS = {
     "lca": {
-        "id": 78,
+        "id": 164,
         "activities": {
-            "pm": 222,
-            "development": 223,
-            "analyses": 423,
-            "IT provoz - setup": 540,
-            "IT provoz - provoz": 541,
-            "Kalkulačka LCA v2": 542
+            "change requesty": 657,
+            "support": 656,
+            "xml": 655,
         }
     },
     "nabla": {
@@ -45,7 +42,7 @@ PROJECTS = {
 }
 
 # ---- Load CSV ----
-csv_path = "lca.csv"
+csv_path = "nabla.csv"
 data = pd.read_csv(csv_path)
 
 # Get project key from filename (without extension, lowercase)
